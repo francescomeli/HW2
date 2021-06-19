@@ -1,0 +1,445 @@
+a{
+    cursor: pointer;
+    color: white;
+    margin: 30px;
+}
+
+#button{
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 100px; 
+}
+
+#button:hover{
+    background-color: white;
+    color:  rgba(0, 0, 0, 0.3);
+}
+
+#link{
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);   /*come da richiesta*/
+    z-index: 1;
+}
+
+#immagine1{
+    background-image: url(https://www.nonsprecare.it/wp-content/uploads/2016/09/BENEFICI-NUOTO.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 85%;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 0;
+}
+
+#immagine2{
+    background-image: url(https://i.pinimg.com/originals/b0/17/ce/b017cea2587c9eca04aa59c1109d8898.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 85%;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    z-index: 0;
+}
+
+header{
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: 15px;
+    height: 30px;
+}
+
+nav p{
+    font-family: 'Snell Roundhand', cursive;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    position: absolute;
+    top: 40%;
+    font-family: 'FreeMono', monospace;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+h2{
+    font-family: 'Snell Roundhand', cursive; 
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#offerte {
+    display: flex;
+    justify-content: space-between;
+}
+
+#offerte div {
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 1em;  
+    padding-right: 1em;
+}
+  
+#offerte img {
+    width: 100%;
+    height: 50%;
+    border: 4px solid gray ;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+#offerte img:hover{
+    opacity: 0.8;
+}
+  
+#offerte p {
+    font-family: 'Gill Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#corso p, #corso a{
+    color: green;
+}
+#piscine p, #piscine p{
+    color: white;
+}
+#relax p, #relax a{
+    color: red;
+}
+#offerte a.descrizione{
+    cursor: pointer;
+    font-family: 'Stencil Std', fantasy;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+section{
+    height: 1000px;
+}
+section p{
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#main {
+    text-align: center;
+    color: white;
+}
+#main p{
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer address{
+    padding-top: 20px;
+}
+footer p{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Apple Chancery', cursive;
+}
+
+section h2{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+#area_sport h2{
+    margin-top: 160px;
+    text-align: center;
+    color: white;
+}
+section p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+#ricerca{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#risultato h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.icona{
+    position: absolute;
+    top: 1875px;
+    left: 35%;
+    width: 120px;
+    height: 200px;
+}
+.foto{
+    position: absolute;
+    top: 2030px;
+    left: 130px;
+    width: 200px;
+    height: 220px;
+    border: 4px solid black;
+}
+#risultato h5{
+    position: absolute;
+    top: 2030px;
+    left: 370px;
+    right: 40px;
+    color: black;
+    font-size: 18px;
+}
+#risultato p{
+    position: absolute;
+    color: black;
+    left: 370px;
+    right: 40px;
+    font-size: 18px;
+    top: 2150px;
+}
+#risultato button{
+    position: absolute;
+    right: 30%;
+    top: 1975px;
+}
+
+#cercata{
+    margin-top: 20px;
+}
+
+
+/*PARTE MOBILE*/
+#menu {                                 /* dovrebbe essere da levare visto che non c'è più il menù a tendina*/
+    display: none;
+}
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0px;
+}
+
+@media(max-width: 1565px){
+    .icona{
+        display: none;
+    }
+    #risultato button{
+        top: 1995px;
+    }
+    #risultato p{
+        top: 2200px;
+    }
+}
+
+@media(max-width: 1060px){
+    #risultato button{
+        top: 2025px;
+        right: 20%;
+    }
+    #risultato h5{
+        top: 2045px;
+    }
+    #risultato p{
+        top: 2250px;
+    }
+    .foto{
+        top: 2080px;
+    }
+}
+
+@media (max-width: 970px){              /* dovrebbe essere da levare visto che non c'è più il menù a tendina*/
+    #link{
+        display: none;
+    }
+    #menu{
+        display: block;
+        padding-top: 15px;
+        padding-right: 85%;
+    }
+}
+
+@media (max-width: 960px){    
+    #area_sport{
+        height: 750px;
+    }      
+}
+
+@media(max-width: 850px){
+    .foto{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        top: 0px;
+        left: 0px;
+    }
+    #risultato p, #risultato h5{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    #area_sport{
+        height: 1000px;
+    }     
+    #area_sport h2{
+        margin-top: 250px;
+    }
+    #risultato button{
+        position: absolute;
+        right: 15%;
+        top: 2115px;
+    }
+}
+
+@media (max-width: 775px){
+    #risultato button{
+        top: 2150px;
+    }
+}
+
+@media (max-width: 745px){
+    section{
+        height: 2200px;
+    }
+    #offerte{
+        flex-direction: column;
+        align-items: center;
+    }
+    #offerte img{
+        width: 50%;
+        height: 80%;
+        border: 4px solid gray ;
+        cursor: pointer;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #offerte p{
+        margin-bottom: 25px;
+    }
+
+    #risultato button{
+        top: 3340px;
+        right: 5%;
+    }
+}
+
+@media (max-width: 650px){
+    #risultato button{
+        top: 3370px;
+    }
+}
+
+@media (max-width: 560px){
+    #area_sport{
+        height: 1200px;
+    }
+}
+
+@media (max-width: 555px){
+    #risultato button{
+        top: 3405px;
+    }
+}
+
+@media (max-width: 520px){
+    section{
+        height: 2300px;
+    }
+    #risultato button{
+        top: 3525px;
+    }
+}
+
+@media (max-width: 500px){
+    #risultato button{
+        top: 3570px;
+    }
+}
+
+@media (max-width: 400px){
+    section{
+        height: 2500px;
+    }
+    #risultato button{
+        top: 3800px;
+    }
+    #area_sport{
+        height: 1350px;
+    }
+}
+
+@media (max-width: 370px){
+    #area_sport{
+        height: 1500px;
+    }
+    #risultato button{
+        top: 3815px;
+    }
+    nav p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 345px){
+    #risultato button{
+        top: 3870px;
+    }
+}
